@@ -1,0 +1,15 @@
+function solucao(ano) {
+    const ultimoAnoDePassagem = 1986;
+    const periodoDePassagem = 76;
+    
+    if ((ano - ultimoAnoDePassagem) % periodoDePassagem === 0) {
+        console.log ("VAI PASSAR");
+    } else {
+        console.log ("NAO VAI PASSAR");
+    }
+}
+
+function processData(input) {
+	const ano = Number(input);
+    solucao(ano);
+} 
